@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+body{
+    background-color: #000000;
+}
+
+.outerContainer1 {
+    background-color: #FFC60B;
+    overflow-x: hidden;
+}
+
+.heroSection {
+    height: 100vh;
+}
+
+@media only screen and (max-width:985px) {
+    .navbar-collapse {
+        background-color: #000000 !important;
+        box-shadow: rgb(80, 69, 69) 10px 10px 50px;
+    }
+
+    .nav-link {
+        color: #FFC60B !important;
+    }
+}
+
+.nav-link {
+    font-size: 2rem !important;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-left: 100px !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.heroImg2 {
+    float: right
+}
+
+.heroSectionText {
+    position: relative;
+    color: black;
+    text-shadow: white 2px 3px 2px;
+}
+
+.rowTwo {
+    width: 100vw;
+    padding-top: 80px !important;
+}
+
+.rowTwo .col-md-6 {
+    margin-bottom: 15px;
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+.card .btn {
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    float: right;
+    line-height: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+
+}
+
+.card-title {
+    font-size: 32px;
+    padding: 8px;
+}
+
+.card .btn:hover {
+    background-color: #FFC60B;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+.pageTwoImg {
+    width: 200px;
+    height: 300px;
+    float: right;
+}
+
+.card-title1 {
+    font-weight: 700;
+}
+
+.aboutWrapper {
+    width: 75vw;
+    height: 75vh;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+    padding: 10%;
+
+}
+
+.aboutWrapper li {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFC60B;
+    text-shadow: -1px -1px rgba(34, 34, 33, 0.411);
+}
+
+.aboutCol {
+    height: 100vh;
+}
+
+.footer:first-child {
+    font-weight: 900;
+    background-color: rgb(10, 10, 10);
+    color:#FFC60B;
+}
+
+
+/* _______________________________ */
+
+.IllustrationContainer{
+margin:0px;
+padding:0px;
+background-color: #000000;
+}
+.projectImgMin{
+    background-color: #000000;
+    padding: 8px;
+}
+.imgWrapper{
+padding: 24px;
+background-color: #FFC60B;
+}
+.homeNav , .toolNav{
+    color: #FFC60B  ;
+}
+
+.homeNav:hover{
+    color: #ffffff  ;
+}
+.toolNav:hover{
+    color: #ffffff  ;
+}
+#footer1{
+    width: inherit;
+}
+
+.resumeBtn{
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;    
+    line-height: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+
+}
+.resumeBtn:hover{
+background-color: #FFC60B;
+font-weight: 700;
+}
+/* ___________________________ */
+.carouselWrapper img{
+   width: 100vw;
+   height: flex;
+}
+.uiUxContainer{
+    background-color: #000000;
+  
+}
+
+.nav-tabs{
+    background-color: #FFC60B;
+    margin-top: 24px;     
+}
+
+.tabSection{
+    height:100vh;
+    overflow-y:hidden ;   
+    }
+@media only screen and (max-width:985px) {
+.nav-tabs{
+    font-size: medium;            
+}
+.nav-link{
+    color: #000000 !important; 
+}
+.tabSection{
+    padding:0px !important; 
+}
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+background-color: #000000 !important;
+height: 40px;
+width: 40px;
+
+}
