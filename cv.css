@@ -21,13 +21,13 @@ body{
 
 @media only screen and (max-width:985px) {
     .navbar-collapse {
-        background-color: #000000 !important;
+        background-color: #ffffff !important;
         box-shadow: rgb(80, 69, 69) 10px 10px 50px;
        
  }
 
     .nav-link {
-        color: white !important;
+        color: rgb(0, 0, 0) !important;
     }
 }
 
