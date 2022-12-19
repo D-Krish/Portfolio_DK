@@ -21,13 +21,13 @@ body{
 
 @media only screen and (max-width:985px) {
     .navbar-collapse {
-        background-color: #ffffff !important;
+        background-color: #272525 !important;
         box-shadow: rgb(80, 69, 69) 10px 10px 50px;
        
  }
 
     .nav-link {
-        color: rgb(0, 0, 0) !important;
+        color: rgb(255, 255, 255) !important;
     }
 }
 
@@ -146,14 +146,14 @@ padding: 24px;
 background-color: #FFC60B;
 }
 .homeNav , .toolNav{
-    color: #FFC60B  ;
+    color: #FFC60B !important ;
 }
 
 .homeNav:hover{
     color: #ffffff  ;
 }
 .toolNav:hover{
-    color: #ffffff  ;
+    color: #ffffff ! ;
 }
 #footer1{
     width: inherit;
