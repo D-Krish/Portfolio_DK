@@ -21,11 +21,11 @@ body{
 
 @media (max-width:985px) {
     .navbar-collapse {
-        background-color: #ffffff !important;
+        background-color:#000000 !important;
         box-shadow: rgb(80, 69, 69) 10px 10px 50px;               
  }   
  .nav-link {
-        color: #FFC60B !important;    
+        color:#FFFFFF !important;    
 }
 }
 
@@ -149,12 +149,12 @@ background-color: #FFC60B;
 .homeNav {
     color: #FFC60B !important ;
 }
-@media only screen and (max-width:985px) {
+@media only screen and (max-width: 985px)  {
     .toolNav{
-        color: #FFC60B !important ;
+        color: #FFFFFF !important ;
     }
     .homeNav {
-        color: #FFC60B !important ;
+        color: #FFFFFF !important ;
     }
 }
 .homeNav:hover{
