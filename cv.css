@@ -24,8 +24,8 @@ body{
         background-color:#000000 !important;
         box-shadow: rgb(80, 69, 69) 10px 10px 50px;               
  }   
- .nav-link {
-        color:#FFFFFF !important;    
+ #ab {
+        color:#FFC60B !important;    
 }
 }
 
@@ -143,24 +143,16 @@ background-color: #000000;
 padding: 24px;
 background-color: #FFC60B;
 }
-.toolNav{
+#toolNav{
     color: #FFC60B !important ;
 }
-.homeNav {
+#homeNav {
     color: #FFC60B !important ;
 }
-@media only screen and (max-width: 985px)  {
-    .toolNav{
-        color: #FFFFFF !important ;
-    }
-    .homeNav {
-        color: #FFFFFF !important ;
-    }
-}
-.homeNav:hover{
+#homeNav:hover{
     color: #ffffff  ;
 }
-.toolNav:hover{
+#toolNav:hover{
     color: #ffffff ;
 }
 #footer1{
