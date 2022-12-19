@@ -23,11 +23,11 @@ body{
     .navbar-collapse {
         background-color: #000000 !important;
         box-shadow: rgb(80, 69, 69) 10px 10px 50px;
-        color: white !important;
-    }
+       
+ }
 
     .nav-link {
-        color: #FFC60B !important;
+        color: white !important;
     }
 }
 
