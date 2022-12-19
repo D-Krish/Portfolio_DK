@@ -19,21 +19,19 @@ body{
     height: 100vh;
 }
 
-@media only screen and (max-width:985px) {
+@media (max-width:985px) {
     .navbar-collapse {
-        background-color: #272525 !important;
-        box-shadow: rgb(80, 69, 69) 10px 10px 50px;
-       
- }
-
-    .nav-link {
-        color: rgb(255, 255, 255) !important;
-    }
+        background-color: #ffffff !important;
+        box-shadow: rgb(80, 69, 69) 10px 10px 50px;               
+ }   
+ .nav-link {
+        color: #FFC60B !important;    
+}
 }
 
 .nav-link {
     font-size: 2rem !important;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
     font-weight: 600;
     padding-left: 100px !important;
 }
@@ -145,10 +143,20 @@ background-color: #000000;
 padding: 24px;
 background-color: #FFC60B;
 }
-.homeNav , .toolNav{
+.toolNav{
     color: #FFC60B !important ;
 }
-
+.homeNav {
+    color: #FFC60B !important ;
+}
+@media only screen and (max-width:985px) {
+    .toolNav{
+        color: #FFC60B !important ;
+    }
+    .homeNav {
+        color: #FFC60B !important ;
+    }
+}
 .homeNav:hover{
     color: #ffffff  ;
 }
